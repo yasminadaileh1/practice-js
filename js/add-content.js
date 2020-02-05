@@ -15,8 +15,9 @@ function greeting(){
         greeting ='hello eldery'
     }
     
-    // console.log (greeting);
+    console.log (greeting);
     
     return greeting;
 }
 greeting();
+document.write('<h3>'+greeting() + '<h3>')
